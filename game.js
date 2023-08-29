@@ -12,8 +12,6 @@ const getUserChoice = (userInput) => {
   }
 };
 
-getUserChoice("rock");
-
 const getComputerChoice = () => {
   let randomNumber = Math.floor(Math.random() * 3);
   switch (randomNumber) {
